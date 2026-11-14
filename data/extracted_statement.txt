@@ -1,0 +1,134 @@
+--- Page 1 ---
+SAMPLE DATA – NOT AN OFFICIAL BANK STATEMENT
+Himalayan Demo Bank | Synthetic statement for testing only
+Page 1
+HIMALAYAN DEMO BANK
+Monthly Account Statement
+Statement Period: 01/10/2026 – 31/10/2026    Generated: 01/11/2026
+Statement Reference: DEMO-STMT-2026-10-001
+Account Holder
+[REDACTED]
+Account Number
+[REDACTED]
+Account Type
+Savings Account
+Branch
+Butwal
+Currency
+NPR
+Statement Month
+October 2026
+Monthly Account Summary
+ Opening Balance
+Total Credit
+Total Debit
+Closing Balance
+Transaction Count
+NPR 25,000.00
+NPR 64,500.00
+NPR 43,334.00
+NPR 46,166.00
+18
+Balance check: NPR 25,000.00 + NPR 64,500.00 − NPR 43,334.00 = NPR 46,166.00
+Transaction Details
+S.N.
+Transaction Date
+Description
+Withdraw (Debit)
+NPR
+Deposit (Credit)
+NPR
+Balance
+NPR
+1
+02/10/2026
+FreshMart Supermarket - groceries
+2,450.00
+22,550.00
+2
+03/10/2026
+Monthly salary deposit
+45,000.00
+67,550.00
+3
+05/10/2026
+Thakali Kitchen - restaurant payment
+1,250.00
+66,300.00
+4
+06/10/2026
+Fuel payment - City Petrol Pump
+2,200.00
+64,100.00
+5
+08/10/2026
+NEA electricity bill payment
+1,850.00
+62,250.00
+6
+09/10/2026
+WorldLink internet bill payment
+1,499.00
+60,751.00
+7
+11/10/2026
+eSewa wallet top-up
+3,000.00
+57,751.00
+8
+12/10/2026
+Online shopping - Daraz-style marketplace (demo)
+4,890.00
+52,861.00
+9
+14/10/2026
+Transfer received - account ending 7788
+7,500.00
+60,361.00
+10
+16/10/2026
+ATM cash withdrawal - Butwal branch area
+10,000.00
+50,361.00
+11
+18/10/2026
+BigBasket Grocery - supermarket
+3,675.00
+46,686.00
+12
+20/10/2026
+Cafe Aroma - restaurant payment
+980.00
+45,706.00
+13
+22/10/2026
+Local transport and ride payment
+650.00
+45,056.00
+14
+24/10/2026
+Bank transfer - own savings allocation
+5,000.00
+40,056.00
+15
+26/10/2026
+eSewa transfer - utility and merchant payments
+1,250.00
+38,806.00
+16
+28/10/2026
+Transfer received - freelance project payment
+12,000.00
+50,806.00
+17
+29/10/2026
+Community Pharmacy - personal care
+1,750.00
+49,056.00
+18
+31/10/2026
+FreshMart Supermarket - groceries
+2,890.00
+46,166.00
+This document contains synthetic test data created for software testing. Himalayan Demo Bank is fictional. No real account, customer, or banking transaction is
+represented.
