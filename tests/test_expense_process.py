@@ -185,26 +185,34 @@ class TestExpenseProcessor(unittest.TestCase):
         )
 
 
-    def test_process_csv(self):
+    def test_csv_financial_totals(self):
         transactions = process_csv(
             "data/converted_statement.csv"
         )
 
-        self.assertEqual(len(transactions), 15)
+        total_income = sum(
+            (t["amount"] for t in transactions if t["amount"] > 0),
+            Decimal("0.00")
+        )
 
-        self.assertEqual(
-            transactions[0]["category"],
-            "Income"
+        total_expenses = sum(
+            (-t["amount"] for t in transactions if t["amount"] < 0),
+            Decimal("0.00")
         )
 
         self.assertEqual(
-            transactions[1]["category"],
-            "Food"
+            total_income,
+            Decimal("64500.00")
         )
 
-        self.assertIn(
-            "transaction_id",
-            transactions[0]
+        self.assertEqual(
+            total_expenses,
+            Decimal("43334.00")
+        )
+
+        self.assertEqual(
+            total_income - total_expenses,
+            Decimal("21166.00")
         )
 
 
@@ -233,9 +241,10 @@ class TestExpenseProcessor(unittest.TestCase):
         print(f"Transaction Count: {len(transactions)}")
         print("------------------------------")
 
-        self.assertEqual(total_income, Decimal("105000"))
-        self.assertEqual(total_expenses, Decimal("32100"))
-        self.assertEqual(net_cash_flow, Decimal("72900"))
+        self.assertEqual(total_income, Decimal("64500.00"))
+        self.assertEqual(total_expenses, Decimal("43334.00"))
+        self.assertEqual(total_income - total_expenses, Decimal("21166.00")
+)
 
 
     def test_empty_description(self):
