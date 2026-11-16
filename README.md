@@ -18,6 +18,10 @@ Amazon SNS sends expense report notifications through email, while Amazon CloudW
 
 The project consists of two main components:
 
+## Video demo
+
+▶ [Watch the demo on YouTube (about 2 minutes)](https://youtu.be/XKS817xZTeQ)
+
 ### A. Local Python Processing
 
 1. The user selects a monthly bank statement PDF.
